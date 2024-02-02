@@ -73,7 +73,7 @@ For the extension to work, you need to create at least one file that extends `qu
 
 There are two examples in the template, in two languages:
 * **Java:** `qupath.ext.template.DemoExtension.java`.
-* **Groovy:** `qupath.ext.template.DemoGroovyExtension.java`.
+* **Groovy:** `qupath.ext.template.SimpleGUITest.java`.
 
 You can pick the one that corresponds to the language you want to use, and delete the other.
 
