@@ -1,4 +1,4 @@
-package qupath.ext.template;
+package qupath.ext.simplepreferences;
 
 import javafx.beans.property.BooleanProperty;
 import javafx.scene.control.MenuItem;
@@ -13,7 +13,7 @@ import qupath.lib.gui.prefs.PathPrefs;
 
 
 /**
- * This is a demo to provide a template for creating a new QuPath extension.
+ * This is a demo to provide a simplepreferences for creating a new QuPath extension.
  * <p>
  * It doesn't do much - it just shows how to add a menu item and a preference.
  * See the code and comments below for more info.
