@@ -1,9 +1,4 @@
-package qupath.ext.simplepreferences.functions
-
-import qupath.lib.gui.QuPathGUI;
-import qupath.lib.gui.prefs.PathPrefs;
-import qupath.fx.prefs.controlsfx.PropertySheetUtils;
-
+package qupath.ext.simplepreferences.packages
 //class SimplePreferencesGUI {
 //
 //    qupath.getPreferencePane()

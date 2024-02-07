@@ -1,6 +1,8 @@
 package qupath.ext.simplepreferences;
 
-import javafx.scene.control.MenuItem;
+import javafx.scene.control.MenuItem
+import org.slf4j.Logger
+import org.slf4j.LoggerFactory;
 import qupath.lib.common.Version;
 import qupath.lib.gui.QuPathGUI;
 import qupath.lib.gui.extensions.QuPathExtension
@@ -17,7 +19,7 @@ import qupath.fx.dialogs.Dialogs
  * </pre>
  */
 class SimpleGUITest implements QuPathExtension {
-
+	static final Logger logger = LoggerFactory.getLogger(SimpleGUITest.class);
 	// Setting the variables here is enough for them to be available in the extension
 	String name = "Groovy GUI tests"
 	String description = "This is just a demo to show how Groovy GUIs work"
